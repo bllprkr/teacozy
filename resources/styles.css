@@ -3,14 +3,37 @@
 * {
   margin:0px;
   font-family: Arial;
+  background-color: black;
 }
 
-main {
+.header {
+  height:69px;
+  background-color: black;
+  color:white;
+  border-bottom: 1px solid seashell;
+  display:inline-flex;
+  justify-content: space-between;
+  width:100%;
+  align-items: center;
+
+}
+
+.logo img{
+  height:50px;
+  margin-left: 10px;
+}
+
+
+.main {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 
+/* start of jumbotron styles */
 .jumbotron {
   background-image: url("./photos/img-mission-background.jpg");
   height: 700px;
@@ -34,4 +57,22 @@ main {
 
 .title h4{
   margin:20px;
+}
+
+/* style for locations */
+
+.locations {
+  background-image: url("./photos/img-locations-background.jpg");
+  height:500px;
+  width: 1200px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.sites {
+  width:300px;
+  height:300px;
+  background-color: black;
 }
