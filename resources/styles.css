@@ -1,9 +1,12 @@
 
 
 * {
-  margin:0px;
+
   font-family: Arial;
   background-color: black;
+  color:seashell;
+
+
 }
 
 .header {
@@ -15,23 +18,50 @@
   justify-content: space-between;
   width:100%;
   align-items: center;
+  position: fixed;
+  top:0px;
+  left:0px;
 
 }
+
+
 
 .logo img{
   height:50px;
   margin-left: 10px;
 }
 
+.menu {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-right: 20px;
+
+}
+
+.menu span {
+  margin-right: 30px;
+  text-decoration: underline;
+}
+
+
+/* start of page below header */
 
 .main {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  
 
 }
 
+.maintwo {
+  margin-top:69px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* start of jumbotron styles */
 .jumbotron {
@@ -46,18 +76,55 @@
 
 .title {
   background-color: black;
-  height:150px;
+  height:100px;
   width:100%;
   text-align: center;
+  padding-top: 80px;
+
+
 }
 
 .title h2{
-   margin:20px;
+
+
 }
 
 .title h4{
-  margin:20px;
+  margin:10px;
+
 }
+
+/* style for teas */
+
+.firsttypes {
+  display: inline-flex;
+  width:1000px;
+  justify-content: space-around;
+  margin-top:8px;
+}
+
+.secondtypes {
+  display: inline-flex;
+  width:1000px;
+  justify-content: center;
+
+  margin: 10px 10px 100px 10px;
+}
+
+.secondtypes img {
+
+}
+
+.teas img{
+  height:200px;
+  width:300px;
+  margin:10px;
+}
+
+.tea {
+  text-align: center;
+}
+
 
 /* style for locations */
 
@@ -65,9 +132,17 @@
   background-image: url("./photos/img-locations-background.jpg");
   height:500px;
   width: 1200px;
+
+
+
+}
+
+.thesites {
   display: inline-flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  background-color: transparent;
 
 }
 
@@ -75,4 +150,22 @@
   width:300px;
   height:300px;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.locations h2 {
+  text-align: center;
+  background-color: transparent;
+  margin-top: 100px;
+  margin-bottom: 15px;
+
+}
+
+.footer {
+  height:200px;
+  background-color: black;
+  text-align: center;
 }
