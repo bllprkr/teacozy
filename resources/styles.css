@@ -51,12 +51,12 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  
+
 
 }
 
 .maintwo {
-  margin-top:69px;
+  margin-top:62px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -79,13 +79,17 @@
   height:100px;
   width:100%;
   text-align: center;
-  padding-top: 80px;
+
 
 
 }
 
-.title h2{
-
+.titletwo{
+  background-color: black;
+  height:100px;
+  width:100%;
+  text-align: center;
+  padding-top:60px;
 
 }
 
@@ -165,7 +169,13 @@
 }
 
 .footer {
-  height:200px;
+  height:150px;
   background-color: black;
   text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  width:100%;
+
 }
